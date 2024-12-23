@@ -1,28 +1,28 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "صفحه اصلی", url: "/" },
+  { name: "محصولات", url: "/products" },
+  { name: "خدمات", url: "/services" },
+  { name: "وبلاگ", url: "/blog" },
+  { name: "ارتباط با ما", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "اکوسیستم",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "مستندات", url: "/welcome-to-docs/" },
+      { name: "لوازم", url: "/products" },
+      { name: "خدمات", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "شرکت",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "درباره ما", url: "#" },
+      { name: "وبلاگ", url: "/blog" },
+      { name: "فرصت های شغلی", url: "#" },
+      { name: "مشتریان", url: "#" },
     ],
   },
 ];
@@ -30,7 +30,7 @@ const footerLinks = [
 const socialLinks = {
   facebook: "https://www.facebook.com/",
   x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
+  github: "",
   google: "https://www.google.com/",
   slack: "https://slack.com/",
 };
