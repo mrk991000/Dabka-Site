@@ -9,11 +9,11 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
+const title: string = "ارتباط با ما";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+  "سوالات نظرات و انتقادات را به گوش ما برسانید";
+const formTitle: string = "فرم زیر را پر کنید";
+const formSubTitle: string = "طی یک الی دو روز کاری پاسخ می دهیم";
 ---
 
 <!-- Contact Us -->
@@ -44,12 +44,12 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
-                label="First Name"
+                label="نام"
                 name="hs-firstname-contacts"
               />
               <TextInput
                 id="hs-lastname-contacts"
-                label="Last Name"
+                label="نام خانوادگی"
                 name="hs-firstname-contacts"
               />
             </div>
@@ -57,13 +57,13 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             <PhoneInput id="hs-phone-number" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Details"
+              label="اطلاعات"
               name="hs-about-contacts"
             />
           </div>
 
           <div class="mt-4 grid">
-            <AuthBtn title="Send Message" />
+            <AuthBtn title="ارسال پیام" />
           </div>
 
           <div class="mt-3 text-center">
@@ -108,7 +108,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
           heading="Contact us by email"
           content="Prefer the written word? Drop us an email at"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
+          linkTitle=""
           linkURL="#"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
