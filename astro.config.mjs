@@ -11,22 +11,22 @@ export default defineConfig({
   image: {
     domains: ["images.unsplash.com"],
   },
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en", "fr"],
+   i18n: {
+    defaultLocale: "fa",
+     locales: ["fa"],
   //   fallback: {
   //     fr: "en",
   //   },
   //   routing: {
   //     prefixDefaultLocale: false,
-  //   },
-  // },
+   //  },
+ },
   prefetch: true,
   integrations: [
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
+        defaultLocale: "fa", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
           fr: "fr",
@@ -44,8 +44,8 @@ export default defineConfig({
       // If both an Astro and Starlight i18n configurations are provided, an error is thrown.
       locales: {
         root: {
-          label: "English",
-          lang: "en",
+          label: "Persian",
+          lang: "fa",
         },
         de: { label: "Deutsch", lang: "de" },
         es: { label: "Español", lang: "es" },
@@ -85,7 +85,7 @@ export default defineConfig({
         },
       ],
       social: {
-        github: "https://github.com/mearashadowfax/ScrewFast",
+        github: "",
       },
       disable404Route: true,
       customCss: ["./src/assets/styles/starlight.css"],
