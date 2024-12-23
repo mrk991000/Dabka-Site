@@ -7,7 +7,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: "https://screwfast.uk",
+  site: "https://dabka.netlify.app/",
   image: {
     domains: ["images.unsplash.com"],
   },
@@ -30,11 +30,12 @@ export default defineConfig({
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
           fr: "fr",
+          fa: "fa",
         },
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
+      title: "DABKA Docs",
       defaultLocale: "root",
       // https://github.com/withastro/starlight/blob/main/packages/starlight/CHANGELOG.md
       // If no Astro and Starlight i18n configurations are provided, the built-in default locale is used in Starlight and a matching Astro i18n configuration is generated/used.
@@ -100,14 +101,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "https://dabka.netlify.app/" + "/social.webp",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "https://dabka.netlify.app/" + "/social.webp",
           },
         },
       ],
