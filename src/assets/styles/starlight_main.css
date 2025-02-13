@@ -48,6 +48,9 @@
 header {
     border: none !important;
     padding: 0 !important;
+    direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 header.header {
@@ -56,6 +59,9 @@ header.header {
     margin-inline: auto !important;
     padding-block: 0 !important;
     padding-inline: 2rem !important;
+    direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 header > div:first-of-type {
@@ -69,6 +75,9 @@ header > div:first-of-type {
     max-width: 1536px;
     padding-inline: 2rem !important;
     width: auto !important;
+    direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 select {
