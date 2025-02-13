@@ -1,6 +1,9 @@
 html.lenis,
 html.lenis body {
     height: auto;
+    direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 .lenis.lenis-smooth {
