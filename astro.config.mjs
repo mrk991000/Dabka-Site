@@ -44,6 +44,7 @@ export default defineConfig({
       root: {
         label: "English",
         lang: "en",
+     dir: "rtl" ,
       },
       de: { label: "Deutsch", lang: "de" },
       es: { label: "Español", lang: "es" },
