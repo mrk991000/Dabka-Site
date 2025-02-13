@@ -32,7 +32,10 @@ export default {
       red: colors.red, // Used for bookmark icon
       zinc: colors.zinc, // Used mainly for box-shadow
     },
-    extend: {},
+     extend: {
+      fontFamily: {
+        sans: ["Vazirmatn", "sans-serif"], // تغییر فونت پیش‌فرض
+      },
   },
   plugins: [
     require("tailwindcss/nesting"),
